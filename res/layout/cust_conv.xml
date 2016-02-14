@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tvccName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Contacter"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0f3987"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvccTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Date"
+        android:textColor="#0f3987"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/tvccBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvccName"
+        android:layout_below="@+id/tvccName"
+        android:text="Message"
+        android:textColor="#447be1"
+        android:textSize="15dp" />
+
+</RelativeLayout>

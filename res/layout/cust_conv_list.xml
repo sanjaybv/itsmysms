@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/tvLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dip"
+        android:text="Contact Name"
+        android:textColor="#0f3987"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvLBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLName"
+        android:layout_below="@+id/tvLName"
+        android:layout_toLeftOf="@+id/tvLTime"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Most Recent Message"
+        android:textColor="#447be1"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvLTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvLBody"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:text="time"
+        android:textColor="#0f3987"
+        android:textSize="13dp" />
+
+</RelativeLayout>

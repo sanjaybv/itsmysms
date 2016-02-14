@@ -1,0 +1,36 @@
+# view AndroidManifest.xml #generated:129
+-keep class com.sanjay.itsmysms.ChangeKey { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.sanjay.itsmysms.ChangePassword { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.sanjay.itsmysms.Compose { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.sanjay.itsmysms.Conversation { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.sanjay.itsmysms.ConversationList { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.sanjay.itsmysms.HelpPage { <init>(...); }
+
+# view AndroidManifest.xml #generated:160
+-keep class com.sanjay.itsmysms.HelpPageTwo { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.sanjay.itsmysms.Intro { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.sanjay.itsmysms.Password { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.sanjay.itsmysms.SetPassword { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.sanjay.itsmysms.SmsReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.sanjay.itsmysms.Splash { <init>(...); }
+

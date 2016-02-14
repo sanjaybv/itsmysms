@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/BlueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Help"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="20dp"
+                android:text="Follow these steps and enjoy the privacy"
+                android:textColor="#447be1"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="15dp"
+                android:text=" * Choose a numerical password to enter into the app. This can be later changed using the &apos;Change Password&apos; option in the options menu."
+                android:textColor="#447be1"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="5dp"
+                android:text="* The app stores only &quot;it&apos;s MY sms&quot; messages. These messages can be decrypted only if the right key is given."
+                android:textColor="#447be1"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="5dp"
+                android:text="* A signature can be set or changed by using the &apos;Change Signature&apos; option in the options menu."
+                android:textColor="#447be1"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bNext"
+                style="@style/BlueButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView8"
+                android:layout_marginTop="25dp"
+                android:text="Next"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
